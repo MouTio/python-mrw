@@ -2,7 +2,8 @@
 #this repository contains the full copyright notices and license terms.
 from mrw.utils import mrw_url
 from xml.dom.minidom import parseString
-from urllib import request
+#from urllib import request
+import urllib2 as request
 import os
 import socket
 import datetime
