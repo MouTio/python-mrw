@@ -10,7 +10,7 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(name='mrw',
-        version=mrw.__version__,
+        version='0.0.4',
         author='Zikzakmedia SL',
         author_email='zikzak@zikzakmedia.com',
         url="https://www.zikzakmedia.com",
