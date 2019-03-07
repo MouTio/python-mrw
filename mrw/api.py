@@ -2,8 +2,13 @@
 #this repository contains the full copyright notices and license terms.
 from mrw.utils import mrw_url
 from xml.dom.minidom import parseString
-#from urllib import request
-import urllib2 as request
+import sys
+if (sys.version_info > (3, 0)):
+    # Python 3
+    from urllib import request
+else:
+    # Python 2
+    import urllib2 as request
 import os
 import socket
 import datetime
